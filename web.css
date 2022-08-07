@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {background-image: url(bg-pattern-top-desktop.svg);
+
+}
+.container h1 {
+    color:hsl(300, 43%, 22%);
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.paragraph{color: hsl(303, 10%, 53%);
+    padding-top: 20px;
+    font-size: 15px; 
+
+}
+.star {padding-top: 40px;
+    margin-top: 50px;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.back{
+    background-color:hsl(300, 24%, 96%) ;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.back1{
+    background-color:hsl(300, 24%, 96%) ;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: -50px;
+}
+.back2{
+    background-color:hsl(300, 24%, 96%) ;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: -100px;
+}
+.colton{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+.flexin{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.review{
+    background-color: hsl(300, 43%, 22%);
+    display: flex;
+    padding-top: 20px;
+    border-radius: 5px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.review1{
+    background-color: hsl(300, 43%, 22%);
+    display: flex;
+    padding-top: 20px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    margin-left: -80px;
+    margin-bottom: -20px;
+}
+.review2{
+    background-color: hsl(300, 43%, 22%);
+    display: flex;
+    padding-top: 20px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 40px;
+    margin-left: -80px;
+    margin-bottom: -40px;
+}
+@media(min-width:1440px)
+{.flex {flex-direction:column;
+}
+}
+@media(max-width:375px)
+{.flexin {flex-direction:column;
+}
+}
